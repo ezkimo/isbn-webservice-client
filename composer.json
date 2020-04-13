@@ -12,7 +12,7 @@
 	},
 	"name" : "ezkimo/isbn-webservice-client",
 	"description" : "An object orientated example implementation of the PHP SoapClient class",
-	"license" : "GNU General Public License v3.0",
+	"license" : "GPL-3.0-or-later",
 	"require" : {
 		"php" : ">=7.4",
 		"ext-soap" : "*"
