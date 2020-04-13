@@ -1,0 +1,30 @@
+{
+	"keywords" : [
+		"php",
+		"soap",
+		"xml",
+		"oop"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"MMNewmedia\\IsbnWebserviceClient\\" : "src"
+		}
+	},
+	"name" : "ezkimo/isbn-webservice-client",
+	"description" : "An object orientated example implementation of the PHP SoapClient class",
+	"license" : "GNU General Public License v3.0",
+	"require" : {
+		"php" : ">=7.4",
+		"ext-soap" : "*"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "^9"
+	},
+	"authors" : [{
+			"name" : "Marcel Maaß",
+			"email" : "info@mm-newmedia.de",
+			"homepage" : "https://www.mm-newmedia.de",
+			"role" : "Developer"
+		}
+	]
+}
